@@ -7,7 +7,7 @@ $nombre = "Jose";
 $edad = 20;
 $altura = 1.72;
 $casado = true;
-
+//Imprimirndo las propiedades de una persona 
 var_dump($nombre);
 echo '<br>';
 echo $edad;
