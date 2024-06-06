@@ -60,7 +60,9 @@
 
 
 
- //OPERADORES LÓGICOS
+ 
+    
+//OPERADORES LÓGICOS
 
  $a and $b;
  $a && $b;
@@ -71,6 +73,63 @@
 
  //Variables con valores Booleanos
  $x = true;
+ $y = false;
+
+ //Operador AND
+
+ echo $x and $y;
+ echo "<br>";
+ echo $x && $y;
+echo "<br>";
+ //Operador OR
+ echo $x or $y;
+echo "<br>";
+echo $x || $y;
+echo "<br>";
+
+//Operador XOR
+ echo $x xor $y;
+echo "<br>";
+
+//Negacion 
+echo !$y;
+
+//OPERADORES DE COMPARACIÓN
+
+/*$a == $b;  //Igual
+$a === $b;//Identico
+$a!= $b;//Diferente
+$a <> $b;//Diferente
+$a!== $b;//No idéntico
+$a > $b;//Mayor que 
+$a < $b;//Menor que 
+$a >= $b;//Mayor o igual que
+$a <= $b;//Menor o igual que*/ 
+
+//Comparaciones 
+
+$a = 10;
+$b = 20;
+
+$a == $b;
+echo "<br>";
+$a === $b;
+echo "<br>";
+$a!= $b;
+echo "<br>";
+$a <> $b;
+echo "<br>";
+$a!== $b;
+echo "<br>";
+$a > $b;
+echo "<br>";
+$a < $b;
+echo "<br>";
+$a >= $b;
+echo "<br>";
+$a <= $b;
+
+//OPERADORES DE ASIGNACIÓN
 
 
 
